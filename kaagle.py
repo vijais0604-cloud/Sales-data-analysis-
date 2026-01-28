@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df=pd.read_csv('/Users/vijais/Documents/vs code/archive/data.csv')
+df=pd.read_csv('/Users/vijais/Documents/vs code/data_projects/data.csv')
 
 # for col in df.columns:
 #     print (col)
@@ -47,12 +47,12 @@ grp1=df.groupby("Month")
 
 plt.figure(figsize=(8,5))
 
-plt.subplot(1,2,1)
+plt.subplot(2,2,1)
 grp1["Profit Margin"].sum().plot(kind="bar")
 plt.title("Profit Margin by Month")
 plt.ylabel("Amount in $")
 
-plt.subplot(1,2,2)
+plt.subplot(2,2,2)
 grp1["Revenue"].sum().plot(kind="bar")
 plt.title("Revenue by Month")
 plt.ylabel("Amount in $")
