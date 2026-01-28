@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df=pd.read_csv('/Users/vijais/Documents/vs code/archive/data.csv')
+df=pd.read_csv('/Users/vijais/Documents/vs code/data.csv')
 
 # for col in df.columns:
 #     print (col)
