@@ -1,0 +1,16 @@
+# Data files
+*.csv
+*.db
+
+# Images / plots
+*.png
+*.jpg
+*.jpeg
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
